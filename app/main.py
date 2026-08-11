@@ -70,8 +70,6 @@ def handle_message(message):
             print(f"Could not send error reply: {reply_error}")
 
 
-from app.scheduler import run_scheduler
-import threading
 
 
 if __name__ == "__main__":
