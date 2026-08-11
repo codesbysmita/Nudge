@@ -1,0 +1,2 @@
+openai
+caspian-sdk==0.6.1
