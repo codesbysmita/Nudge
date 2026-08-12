@@ -87,7 +87,12 @@ A background scheduler checks the database every 60 seconds for reminders that n
                        
 
 ---
+🎬 Demo
 
+Nudge in action:
+<img width="1972" height="1972" alt="photo_2026-08-12_15-39-43" src="https://github.com/user-attachments/assets/8c3fae6b-9ec9-457c-89c9-2d7b4708d7d6" />
+
+---
 🛠️ Tech Stack
 
 Technology with their purpose:
