@@ -1,6 +1,6 @@
 🧠 Nudge
 
-«An AI-powered personal deadline and task assistant that makes sure important things don't slip through the cracks.»
+An AI-powered personal deadline and task assistant that makes sure important things don't slip through the cracks.
 
 Nudge turns natural-language messages into actionable tasks, stores them locally, tracks deadlines, and proactively sends reminders through Discord and Email.
 
@@ -312,4 +312,4 @@ They fail because the reminder comes too late — or never comes at all.
 
 Nudge is built around one simple idea:
 
-«Remember it once. Let Nudge remind you.»
+"Remember it once. Let Nudge remind you."
