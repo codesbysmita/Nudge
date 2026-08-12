@@ -81,42 +81,9 @@ A background scheduler checks the database every 60 seconds for reminders that n
 ---
 
 🏗️ Architecture
+<img width="1536" height="1024" alt="architecture png" src="https://github.com/user-attachments/assets/32087e2f-5790-4a4f-8fe1-5ba0573c9ef5" />
 
-                         ┌─────────────────────┐
-                         │       User          │
-                         └──────────┬──────────┘
-                                    │
-                         Natural-language message
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │     Nudge Agent     │
-                         │ Featherless + LLM   │
-                         └──────────┬──────────┘
-                                    │
-                           Structured action
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │      SQLite DB      │
-                         │                     │
-                         │ Tasks + Deadlines   │
-                         │ Status + Reminders  │
-                         └──────────┬──────────┘
-                                    │
-                         Reminder scheduler
-                            every 60 seconds
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │  Reminder Sender    │
-                         └──────────┬──────────┘
-                                    │
-                       ┌────────────┴────────────┐
-                       ▼                         ▼
-                ┌─────────────┐           ┌─────────────┐
-                │   Discord   │           │    Email    │
-                └─────────────┘           └─────────────┘
+                       
 
 ---
 
